@@ -4,31 +4,348 @@ This is a personal repository where you can find the automatization of all labs 
 
 # Topics
 
-- 0x01-SQLInjection
-- 0x02-XSS
-- 0x03-CSRF
-- 0x04-ClickJacking
-- 0x05-DOM_Vulns
-- 0x06-CORS
-- 0x07-XXE
-- 0x08-SSRF
-- 0x09-HTTP_REQUEST_SMUGGLING
-- 0x0A-RCE
-- 0x0B-SSTI
-- 0x0C-LFI
-- 0x0D-Access_Control
-- 0x0E-AUTH
-- 0x0F-WebSockets
-- 0x10-Web_Cache_Poisoning
-- 0x11-Deserialization
-- 0x12-Info_Disclosure
-- 0x13-Business_Logic
-- 0x14-Host_Headers
-- 0x15-OAuth
-- 0x16-File_Uploads
-- 0x17-JWT
-- 0x18-Skills
-- 0x19-Prototype_Pollution
-- 0x1A-GraphQL
-- 0x1B-RaceConditions
-- 0x1C-NoSQLInjection
+## 0x01-SQLInjection
+
+- SQL_injection_vulnerability_in_WHERE_clause_allowing_retrieval_of_hidden_data
+- SQL_injection_vulnerability_allowing_login_bypass
+- SQL_injection_attack,_querying_the_database_type_and_version_on_Oracle
+- SQL_injection_attack,_querying_the_database_type_and_version_on_MySQL_and_Microsoft
+- SQL_injection_attack,_listing_the_database_contents_on_non-Oracle_databases
+- SQL_injection_attack,_listing_the_database_contents_on_Oracle
+- SQL_injection_UNION_attack,_determining_the_number_of_columns_returned_by_the_query
+- SQL_injection_UNION_attack,_finding_a_column_containing_text
+- SQL_injection_UNION_attack,_retrieving_data_from_other_tables
+- SQL_injection_UNION_attack,_retrieving_multiple_values_in_a_single_column
+- Blind_SQL_injection_with_conditional_responses
+- Blind_SQL_injection_with_conditional_errors
+- Visible_error-based_SQL_injection
+- Blind_SQL_injection_with_time_delays
+- Blind_SQL_injection_with_time_delays_and_information_retrieval
+- Blind_SQL_injection_with_out-of-band_interaction
+- Blind_SQL_injection_with_out-of-band_data_exfiltration
+- SQL_injection_with_filter_bypass_via_XML_encoding
+
+## 0x02-XSS
+
+- Reflected_XSS_into_HTML_context_with_nothing_encoded
+- Stored_XSS_into_HTML_context_with_nothing_encoded
+- DOM_XSS_in_document.write_sink_using_source_location.search
+- DOM_XSS_in_innerHTML_sink_using_source_location.search
+- DOM_XSS_in_jQuery_anchor_href_attribute_sink_using_location.search_source
+- DOM_XSS_in_jQuery_selector_sink_using_a_hashchange_event
+- Reflected_XSS_into_attribute_with_angle_brackets_HTML-encoded
+- Stored_XSS_into_anchor_href_attribute_with_double_quotes_HTML-encoded
+- Reflected_XSS_into_a_JavaScript_string_with_angle_brackets_HTML_encoded
+- DOM_XSS_in_document.write_sink_using_source_location.search_inside_a_select_element
+- DOM_XSS_in_AngularJS_expression_with_angle_brackets_and_double_quotes_HTML-encoded
+- Reflected_DOM_XSS
+- Stored_DOM_XSS
+- Reflected_XSS_into_HTML_context_with_most_tags_and_attributes_blocked
+- Reflected_XSS_into_HTML_context_with_all_tags_blocked_except_custom_ones
+- Reflected_XSS_with_some_SVG_markup_allowed
+- Reflected_XSS_in_canonical_link_tag
+- Reflected_XSS_into_a_JavaScript_string_with_single_quote_and_backslash_escaped
+- Reflected_XSS_into_a_JavaScript_string_with_angle_brackets_and_double_quotes_HTML-encoded_and_single_quotes_escaped
+- Stored_XSS_into_onclick_event_with_angle_brackets_and_double_quotes_HTML-encoded_and_single_quotes_and_backslash_escaped
+- Reflected_XSS_into_a_template_literal_with_angle_brackets,_single,_double_quotes,_backslash_and_backticks_Unicode-escaped
+- Exploiting_cross-site_scripting_to_steal_cookies
+- Exploiting_cross-site_scripting_to_capture_passwords
+- Exploiting_XSS_to_perform_CSRF
+- Reflected_XSS_with_AngularJS_sandbox_escape_without_strings
+- Reflected_XSS_with_AngularJS_sandbox_escape_and_CSP
+- Reflected_XSS_with_event_handlers_and_href_attributes_blocked
+- Reflected_XSS_in_a_JavaScript_URL_with_some_characters_blocked
+- Reflected_XSS_protected_by_very_strict_CSP,_with_dangling_markup_attack
+- Reflected_XSS_protected_by_CSP,_with_CSP_bypass
+
+## 0x03-CSRF
+
+- CSRF_vulnerability_with_no_defenses
+- CSRF_where_token_validation_depends_on_request_method
+- CSRF_where_token_validation_depends_on_token_being_present
+- CSRF_where_token_is_not_tied_to_user_session
+- CSRF_where_token_is_tied_to_non-session_cookie
+- CSRF_where_token_is_duplicated_in_cookie
+- SameSite_Lax_bypass_via_method_override
+- SameSite_Strict_bypass_via_client-side_redirect
+- SameSite_Strict_bypass_via_sibling_domain
+- SameSite_Lax_bypass_via_cookie_refresh
+- CSRF_where_Referer_validation_depends_on_header_being_present
+- CSRF_with_broken_Referer_validation
+
+## 0x04-ClickJacking
+
+- Basic_clickjacking_with_CSRF_token_protection
+- Clickjacking_with_form_input_data_prefilled_from_a_URL_parameter
+- Clickjacking_with_a_frame_buster_script
+- Exploiting_clickjacking_vulnerability_to_trigger_DOM-based_XSS
+- Multistep_clickjacking
+
+## 0x05-DOM_Vulns
+
+- DOM_XSS_using_web_messages
+- DOM_XSS_using_web_messages_and_a_JavaScript_URL
+- DOM_XSS_using_web_messages_and_JSON.parse
+- DOM-based_open_redirection
+- DOM-based_cookie_manipulation
+- Exploiting_DOM_clobbering_to_enable_XSS
+- Clobbering_DOM_attributes_to_bypass_HTML_filters
+
+## 0x06-CORS
+
+- CORS_vulnerability_with_basic_origin_reflection
+- CORS_vulnerability_with_trusted_null_origin
+- CORS_vulnerability_with_trusted_insecure_protocols
+- CORS_vulnerability_with_internal_network_pivot_attack
+
+## 0x07-XXE
+
+- Exploiting_XXE_using_external_entities_to_retrieve_files
+- Exploiting_XXE_to_perform_SSRF_attacks
+- Blind_XXE_with_out-of-band_interaction
+- Blind_XXE_with_out-of-band_interaction_via_XML_parameter_entities
+- Exploiting_blind_XXE_to_exfiltrate_data_using_a_malicious_external_DTD
+- Exploiting_blind_XXE_to_retrieve_data_via_error_messages
+- Exploiting_XInclude_to_retrieve_files
+- Exploiting_XXE_via_image_file_upload
+- Exploiting_XXE_to_retrieve_data_by_repurposing_a_local_DTD
+
+## 0x08-SSRF
+
+- Basic_SSRF_against_the_local_server
+- Basic_SSRF_against_another_back-end_system
+- Blind_SSRF_with_out-of-band_detection
+- SSRF_with_blacklist-based_input_filter
+- SSRF_with_filter_bypass_via_open_redirection_vulnerability
+- Blind_SSRF_with_Shellshock_exploitation
+- SSRF_with_whitelist-based_input_filter
+
+## 0x09-HTTP_REQUEST_SMUGGLING
+
+- HTTP_request_smuggling,_confirming_a_CL.TE_vulnerability_via_differential_responses
+- HTTP_request_smuggling,_confirming_a_TE.CL_vulnerability_via_differential_responses
+- Exploiting_HTTP_request_smuggling_to_bypass_front-end_security_controls,_CL.TE_vulnerability
+- Exploiting_HTTP_request_smuggling_to_bypass_front-end_security_controls,_TE.CL_vulnerability
+- Exploiting_HTTP_request_smuggling_to_reveal_front-end_request_rewriting
+- Exploiting_HTTP_request_smuggling_to_capture_other_users'_requests
+- Exploiting_HTTP_request_smuggling_to_deliver_reflected_XSS
+- Response_queue_poisoning_via_H2.TE_request_smuggling
+- H2.CL_request_smuggling
+- HTTP/2_request_smuggling_via_CRLF_injection
+- HTTP/2_request_splitting_via_CRLF_injection
+- CL.0_request_smuggling
+- HTTP_request_smuggling,_basic_CL.TE_vulnerability
+- HTTP_request_smuggling,_basic_TE.CL_vulnerability
+- HTTP_request_smuggling,_obfuscating_the_TE_header
+- Exploiting_HTTP_request_smuggling_to_perform_web_cache_poisoning
+- Exploiting_HTTP_request_smuggling_to_perform_web_cache_deception
+- Bypassing_access_controls_via_HTTP/2_request_tunnelling
+- Web_cache_poisoning_via_HTTP/2_request_tunnelling
+- Client-side_desync
+- Server-side_pause-based_request_smuggling
+
+## 0x0A-RCE
+
+- OS_command_injection,_simple_case
+- Blind_OS_command_injection_with_time_delays
+- Blind_OS_command_injection_with_output_redirection
+- Blind_OS_command_injection_with_out-of-band_interaction
+- Blind_OS_command_injection_with_out-of-band_data_exfiltration
+- Basic_server-side_template_injection
+- Basic_server-side_template_injection_(code_context)
+
+## 0x0B-SSTI
+
+- Server-side_template_injection_using_documentation
+- Server-side_template_injection_in_an_unknown_language_with_a_documented_exploit
+- Server-side_template_injection_with_information_disclosure_via_user-supplied_objects
+- Server-side_template_injection_in_a_sandboxed_environment
+- Server-side_template_injection_with_a_custom_exploit
+
+## 0x0C-LFI
+
+- File_path_traversal,_simple_case
+- File_path_traversal,_traversal_sequences_blocked_with_absolute_path_bypass
+- File_path_traversal,_traversal_sequences_stripped_non-recursively
+- File_path_traversal,_traversal_sequences_stripped_with_superfluous_URL-decode
+- File_path_traversal,_validation_of_start_of_path
+- File_path_traversal,_validation_of_file_extension_with_null_byte_bypass
+
+## 0x0D-Access_Control
+- Unprotected_admin_functionality
+- Unprotected_admin_functionality_with_unpredictable_URL
+- User_role_controlled_by_request_parameter
+- User_role_can_be_modified_in_user_profile
+- User_ID_controlled_by_request_parameter
+- User_ID_controlled_by_request_parameter,_with_unpredictable_user_IDs
+- User_ID_controlled_by_request_parameter_with_data_leakage_in_redirect
+- User_ID_controlled_by_request_parameter_with_password_disclosure
+- Insecure_direct_object_references
+- URL-based_access_control_can_be_circumvented
+- Method-based_access_control_can_be_circumvented
+- Multi-step_process_with_no_access_control_on_one_step
+- Referer-based_access_control
+
+## 0x0E-Authentication
+
+- Username_enumeration_via_different_responses
+- 2FA_simple_bypass
+- Password_reset_broken_logic
+- Username_enumeration_via_subtly_different_responses
+- Username_enumeration_via_response_timing
+- Broken_brute-force_protection,_IP_block
+- Username_enumeration_via_account_lock
+- 2FA_broken_logic
+- Brute-forcing_a_stay-logged-in_cookie
+- Offline_password_cracking
+- Password_reset_poisoning_via_middleware
+- Password_brute-force_via_password_change
+- Broken_brute-force_protection,_multiple_credentials_per_request
+- 2FA_bypass_using_a_brute-force_attack
+
+## 0x0F-WebSockets
+
+- Manipulating_WebSocket_messages_to_exploit_vulnerabilities
+- Cross-site_WebSocket_hijacking
+- Manipulating_the_WebSocket_handshake_to_exploit_vulnerabilities
+
+## 0x10-Web_Cache_Poisoning
+
+- Web_cache_poisoning_with_an_unkeyed_header
+- Web_cache_poisoning_with_an_unkeyed_cookie
+- Web_cache_poisoning_with_multiple_headers
+- Targeted_web_cache_poisoning_using_an_unknown_header
+- Web_cache_poisoning_via_an_unkeyed_query_string
+- Web_cache_poisoning_via_an_unkeyed_query_parameter
+- Parameter_cloaking
+- Web_cache_poisoning_via_a_fat_GET_request
+- URL_normalization
+- Web_cache_poisoning_to_exploit_a_DOM_vulnerability_via_a_cache_with_strict_cacheability_criteria
+- Combining_web_cache_poisoning_vulnerabilities
+- Cache_key_injection
+- Internal_cache_poisoning
+
+## 0x11-Deserialization
+
+- Modifying_serialized_objects
+- Modifying_serialized_data_types
+- Using_application_functionality_to_exploit_insecure_deserialization
+- Arbitrary_object_injection_in_PHP
+- Exploiting_Java_deserialization_with_Apache_Commons
+- Exploiting_PHP_deserialization_with_a_pre-built_gadget_chain
+- Exploiting_Ruby_deserialization_using_a_documented_gadget_chain
+- Developing_a_custom_gadget_chain_for_Java_deserialization
+- Developing_a_custom_gadget_chain_for_PHP_deserialization
+- Using_PHAR_deserialization_to_deploy_a_custom_gadget_chain
+
+## 0x12-Info_Disclosure
+
+- Information_disclosure_in_error_messages
+- Information_disclosure_on_debug_page
+- Source_code_disclosure_via_backup_files
+- Authentication_bypass_via_information_disclosure
+- Information_disclosure_in_version_control_history
+
+## 0x13-Business_Logic
+
+- Excessive_trust_in_client-side_controls
+- High-level_logic_vulnerability
+- Inconsistent_security_controls
+- Flawed_enforcement_of_business_rules
+- Low-level_logic_flaw
+- Inconsistent_handling_of_exceptional_input
+- Weak_isolation_on_dual-use_endpoint
+- Insufficient_workflow_validation
+- Authentication_bypass_via_flawed_state_machine
+- Infinite_money_logic_flaw
+- Authentication_bypass_via_encryption_oracle
+
+## 0x14-Host_Headers
+
+- Basic_password_reset_poisoning
+- Host_header_authentication_bypass
+- Web_cache_poisoning_via_ambiguous_requests
+- Routing-based_SSRF
+- SSRF_via_flawed_request_parsing
+- Host_validation_bypass_via_connection_state_attack
+- Password_reset_poisoning_via_dangling_markup
+
+## 0x15-OAuth
+
+- Authentication_bypass_via_OAuth_implicit_flow
+- SSRF_via_OpenID_dynamic_client_registration
+- Forced_OAuth_profile_linking
+- OAuth_account_hijacking_via_redirect_uri
+- Stealing_OAuth_access_tokens_via_an_open_redirect
+- Stealing_OAuth_access_tokens_via_a_proxy_page
+
+## 0x16-File_Uploads
+
+- Remote_code_execution_via_web_shell_upload
+- Web_shell_upload_via_Content-Type_restriction_bypass
+- Web_shell_upload_via_path_traversal
+- Web_shell_upload_via_extension_blacklist_bypass
+- Web_shell_upload_via_obfuscated_file_extension
+- Remote_code_execution_via_polyglot_web_shell_upload
+- Web_shell_upload_via_race_condition
+
+## 0x17-JWT
+
+- JWT_authentication_bypass_via_unverified_signature
+- JWT_authentication_bypass_via_flawed_signature_verification
+- JWT_authentication_bypass_via_weak_signing_key
+- JWT_authentication_bypass_via_jwk_header_injection
+- JWT_authentication_bypass_via_jku_header_injection
+- JWT_authentication_bypass_via_kid_header_path_traversal
+- JWT_authentication_bypass_via_algorithm_confusion
+- JWT_authentication_bypass_via_algorithm_confusion_with_no_exposed_key
+
+## 0x18-Skills
+
+- Discovering_vulnerabilities_quickly_with_targeted_scanning
+- Scanning_non-standard_data_structures
+
+## 0x19-Prototype_Pollution
+
+- Client-side_prototype_pollution_via_browser_APIs
+- DOM_XSS_via_client-side_prototype_pollution
+- DOM_XSS_via_an_alternative_prototype_pollution_vector
+- Client-side_prototype_pollution_via_flawed_sanitization
+- Client-side_prototype_pollution_in_third-party_libraries
+- Privilege_escalation_via_server-side_prototype_pollution
+- Detecting_server-side_prototype_pollution_without_polluted_property_reflection
+- Bypassing_flawed_input_filters_for_server-side_prototype_pollution
+- Remote_code_execution_via_server-side_prototype_pollution
+- Exfiltrating_sensitive_data_via_server-side_prototype_pollution
+
+## 0x1A-GraphQL
+
+- Accessing_private_GraphQL_posts
+- Accidental_exposure_of_private_GraphQL_fields
+- Finding_a_hidden_GraphQL_endpoint
+- Bypassing_GraphQL_brute_force_protections
+- Performing_CSRF_exploits_over_GraphQL
+
+## 0x1B-RaceConditions
+
+- Limit_overrun_race_conditions
+- Bypassing_rate_limits_via_race_conditions
+- Multi-endpoint_race_conditions
+- Single-endpoint_race_conditions
+- Exploiting_time-sensitive_vulnerabilities
+- Partial_construction_race_conditions
+
+## 0x1C-NoSQLInjection
+
+- Detecting_NoSQL_injection
+- Exploiting_NoSQL_operator_injection_to_bypass_authentication
+- Exploiting_NoSQL_injection_to_extract_data
+- Exploiting_NoSQL_operator_injection_to_extract_unknown_fields
+
+## 0x1D-API
+
+- Exploiting_an_API_endpoint_using_documentation
+- Exploiting_server-side_parameter_pollution_in_a_query_string
+- Finding_and_exploiting_an_unused_API_endpoint
+- Exploiting_a_mass_assignment_vulnerability
+- Exploiting_server-side_parameter_pollution_in_a_REST_URL

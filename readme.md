@@ -1,6 +1,6 @@
 # Portswigger Academy Labs
 
-This is a personal repository where you can find the automatization of all labs in Portswigger Academy.
+This is a personal repository where you can find the automatization of all labs in Portswigger Academy. In each topic you will find a python script that solves the lab.
 
 # Topics
 
